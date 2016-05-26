@@ -1,12 +1,3 @@
-let bin = new Buffer([0x68, 0x65, 0x6c, 0x6c, 0x6f]);
-let dup = new Buffer(bin.length);
-
-bin.copy(dup);
-dup[0] = 0x48;
-console.log(bin);
-console.log(dup);
-
-
 // const bin = new Buffer([0x68, 0x65, 0x6c, 0x6c, 0x6f]);
 
 // console.log(bin[0]);
@@ -22,3 +13,11 @@ console.log(dup);
 // console.log(bin);
 // sub[0] = 0x65;
 // console.log(bin);
+
+let bin = new Buffer([0x68, 0x65, 0x6c, 0x6c, 0x6f]);
+let dup = new Buffer(bin.length);
+
+bin.copy(dup);
+dup[0] = 0x48;
+console.log(bin);
+console.log(dup);
