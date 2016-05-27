@@ -17,4 +17,3 @@ console.log(joinPath);
 
 let extStr = path.extname('foo/bar.js');
 console.log(extStr);
-
