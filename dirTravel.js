@@ -26,6 +26,8 @@ let travel = (dir, callback, finish) => {
   });
 }
 
+
+
 /*let travel = (dir, callback) => {
   fs.readdirSync(dir).forEach((file) => {
     let pathname = path.join(dir, file);
